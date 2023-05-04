@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://wallpapers.com/images/featured-full/fortnite-background-34h5tua0czqu7u9t.jpg");
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-box {
+  width: 320px;
+  height: 300px;
+  border:solid rgb(229, 4, 245) 3px;
+  border-radius: 40px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border-radius: 40px;
+  box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2);
+}
+.login-box:hover{
+  box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.2);
+}
+
+
+
+.login-box h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.login-box label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+}
+
+.login-box input[type="submit"] {
+  background-color: #d400fe;
+  color: #fff;
+  border: none;
+  padding: 10px ;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+  background-color: #3e8e41;
+} 
+
+    </style>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="login3.js" defer></script>
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+      <form id="login-form">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Enter Username">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter Password">
+        <input type="submit" name="submit" value="Login">
+      </form>
+    </div>
+  </body>
+</html>

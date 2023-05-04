@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+		::-webkit-scrollbar{
+			display: none;
+		}
+		
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+		body {
+			background-image:url("https://e0.pxfuel.com/wallpapers/356/718/desktop-wallpaper-abstract-black-and-red-polygon-gaming.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-attachment:fixed;
+		}
+		
+		
+		h1 {
+			font-size: 56px;
+			margin: 0;
+			text-shadow: 0 0 10px #00d9ff, 0 0 20px #00ffb3, 0 0 30px #fff, 0 0 40px rgb(5, 255, 197), 0 0 40px rgb(0, 255, 47), 0 0 40px rgb(0, 238, 255), 0 0 40px rgb(0, 255, 251), 0 0 40px rgb(0, 255, 229); 
+		}
+		nav {
+			/*top: 20px;*/
+			background:transparent;
+			padding: 10px;
+
+
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			top: 50px;
+		}
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+			margin-left: 30px;
+		}
+		nav a {
+			color: #f3e3e3;
+			text-decoration: none;
+			
+		}
+		nav a:hover {
+			color: #fa0000;
+			background-color: #333;
+			box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(255, 5, 5), 0 0 40px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 0);
+			padding: 10px;
+			border-radius: 0px 20px ;
+			transition:0.5s;
+			box-shadow:10px #f0f0f0,10px #fff,20px #fff;
+		}
+
+		main {
+			padding: 20px;
+		}
+		section {
+			margin-bottom: 20px;
+		}
+		h2 {
+			font-size: 24px;
+			margin: 0 0 10px 0;
+		}
+		p {
+			color: azure;
+			font-size: 20px;
+			line-height: 1.5;
+			margin: 0 0 10px 0;
+			font-family: 'Courier New', Courier, monospace;
+		}
+		
+		
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 50vh;
+		}
+		/*form {
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: #322b2b;
+			padding: 20px;
+			border-radius: 40px;
+			width: 380px;
+			height: 300px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+		}
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border:navajowhite;
+			background-color: #322b2b;
+			width: 100%;
+			color: #fff;
+			font-family: 'Courier New', Courier, monospace;
+		}
+		input[type="submit"] {
+			padding: 10px;
+			border-radius: 5px;
+			border:navajowhite;
+			background-color: #f50f0f;
+			color: white;
+			cursor: pointer;
+			width: 100%;
+		}
+	footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+}
+
+.next-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.next-page a {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #ed2a2a;
+  text-decoration: none;
+  color: #0f00e6;
+}
+
+.next-page a:hover {
+  background-color: #00a711;
+  color: #f508ae;
+}*/
+header .title{
+	background:linear-gradient(right,rgba(#00dbe6),rgba(#ed2a2a));
+	/*webkit-background-clip: text;
+	/*-webkit-text-fill-color: transparent;*/
+}
+.title{
+	background:linear-gradient(right,rgba(#00dbe6),rgtba(#ed2a2a));
+	/*webkit-background-clip: text;
+	/*-webkit-text-fill-color: transparent;*/
+}
+title h1{
+	text-align: center;
+
+}
+element.style {
+    transition-property: opacity, transform;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    text-align: start;
+    opacity: 1;
+    font-family: "Foldit variant0";
+    line-height: initial;
+    transition-duration: 350ms;
+}
+header h1{
+color: #f0f0f0;
+}
+/*for login form*/
+.login-box {
+  width: 380px;
+  height: 320px;
+  background:transparent;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 4px solid white;
+  /*box-shadow: 0px 0px 10px #f0f0f0,0px 0px 20px #fff,0px 0px 40px #fff,10px 10px 40px #f50f0f,0px 0px 40px #f50f0f,0px 0px 40px #f50f0f,0px 0px 40px #f50f0f,0px 0px 40px #f50f0f,/*0px 0px 30px rgba(#dc5c00),0px 0px 20px rgba(#dcb700),0px 0px 10px rgba(#dcdc00);*/
+  border-radius:  30px;
+  /*border: solid white 2px;*/
+}
+
+
+
+
+.login-box:hover{
+	/*box-shadow: 0px 0px 10px #f0f0f0,0px 0px 20px #fff,0px 0px 40px #fff,10px 10px 40px #f50f0f,0px 0px 40px #f50f0f,0px 0px 40px #f50f0f,0px 0px 40px #f50f0f,0px 0px 40px #f50f0f,0px 0px 30px rgba(#dc5c00),0px 0px 20px rgba(#dcb700),0px 0px 10px rgba(#dcdc00);*/
+	box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(5, 222, 255), 0 0 40px rgb(0, 242, 255);/*, 0 0 40px rgb(249, 249, 249), 0 0 40px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);*/
+	border-radius: 40px 40px;
+	border:solid white 2px;
+
+}
+
+
+
+.login-box h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.login-box label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  color: #fc0000;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+  background:none;
+}
+.login-box input[type="text"]:hover,
+.login-box input[type="password"]:hover{
+	padding:20px 0px;
+	background-color: #1df7ff;
+	width:80%;
+	transition: 0.5s;
+	border-bottom: 3px solid white;
+	position: relative;
+	border: solid white 3px;
+	
+	font-size: 20px;
+	box-shadow: 20px 20px 20px 20px rgba(255, 253, 253, 0.2),rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.8);
+
+}
+
+
+.submit input[type="submit"] {
+  background-color: #ff0505;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: fill 2s timing-function 0.5s infinite ease none;
+  
+}
+
+.submit input[type="submit"]:hover {
+  background-color:green;
+  color: #f3e3e3;
+}
+  
+ 
+  
+
+
+/*#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}*/
+/*.login-box .user-box label{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	font-size: 16px;
+	color: #f0f0f0;
+	pointer-events: none;
+
+}*/
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background:transparent;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+label {
+  display: block;
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.flow{
+	animation: slide 3s 1s 1 ease none;
+}
+
+@keyframes slide {
+	from{ 
+		/*transform: scaleX(0);*/
+		transform: rotateZ(40deg);
+		color: #fff ;
+
+	}
+	to{
+	    color: #a70000 ;
+		transform: scaleX(-200px);
+		transform: rotateX(50deg);
+		transition: 2s;
+		
+
+	}
+
+}
+/*@keyframes fill{
+	from{
+		background-color: #f0f0f0 0%;
+		transform: scale(0);
+	}
+	to{
+		background-color: #00a711 100%;
+		transform: scaleX(100px);
+	}
+
+}*/
+/*.box{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background: #1c1c1c;
+            border-radius: 8px;
+            overflow: hidden;
+
+        }
+        .box::before{
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            transform-origin: bottom right;
+            width: 680px;
+            height: 720px;
+            background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+            animation: animate 6s linear infinite;
+
+        }
+        .box:after{
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            transform-origin: bottom right;
+            width: 680px;
+            height: 720px;
+            background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
+            animation: animate 6s linear infinite;
+            animation-delay: -3s;
+
+        }
+        @keyframes animate{
+            0%{
+                transform: rotate(0deg);
+            }
+            0%{
+                transform: rotate(360deg);
+            }
+        }
+        .form{
+            position: absolute;
+            z-index: 10;
+            background: #282922;
+           inset: 2px;
+            border-radius: 8px;
+            padding: 50px 60px;
+            display: flex;
+            flex-direction: column;
+
+
+        }
+        .form h2{
+           color: #45f3ff;
+           font-weight: 600;
+           text-align: center;
+           letter-spacing: 0.1em;
+
+        }
+        .inputbox{
+            position: relative;
+            width: 300px;
+            margin-top: 35px;
+            margin-left: 110px;
+
+        }
+        .inputbox input{
+            position: relative;
+            width: 100%;
+            padding: 20px 10px 10px;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #23242a;
+            font-size: 1em;
+            letter-spacing: 0.05em;
+            z-index: 10;
+
+        }
+        .inputbox span{
+          position: absolute;
+          left: 0;
+          padding: 20px 0px 10px;
+          font-size: 1em;
+          color: #8f8f8f;
+          pointer-events: none;
+          letter-spacing: 0.05em;
+          transition: 0.5s;
+
+        }
+        .inputbox input:valid ~ span,
+        .inputbox input:focus ~ span{
+            color: #45f3ff;
+            transform: translateX(0px) translateY(-34px);
+            font-size: 0.75em;
+        }
+        .inputbox i{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background: #45f3ff;
+            border-radius: 4px;
+            transition: 0.5s;
+            pointer-events: none;
+            z-index: 9;
+
+
+
+        }
+        .inputbox input:valid ~ i,
+        .inputbox input:focus ~ i{
+           height: 44px;
+
+        }
+       
+
+        
+        input[type="submit"]{
+            border: none;
+            outline: none;
+            background: #45f3ff;
+            padding: 11px 25px;
+            width: 100px;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+        }*/
+
+
+
+        
+	</style>
+	<script src="login.js" defer></script>
+</head>
+<body>
+	  
+	<header>
+		
+			<h1 class="flow">
+			Games.com
+				
+			</h1>
+
+		
+	</header>
+	<nav>
+		<ul>
+			<li><a href="prjct.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="game2.html">Games</a></li>
+			<li><a href="under-development.html">Merch</a></li>
+		</ul>
+	</nav>
+	<div class="login-box">
+		<h2>Login</h2>
+		<form id="login-form">
+			<label>Username</label>
+		    <input type="text" name="username" id="username" ><!--placeholder="Enter Username-->
+			<div class="user-box0">
+		    <label>Password</label>
+		    <input type="password" name="password" id="password"><!--placeholder="Enter Password"-->
+		    <div class="submit">
+			
+			<input type="submit" name="submit" value="Login" ></a>
+			</div>
+			
+
+
+		</form>
+		
+</body>
+</html>
